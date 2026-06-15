@@ -1,0 +1,212 @@
+Navigation and Form Design:
+
+Project: Loan Tracking and Utilization Monitoring System
+
+1. Navigation Design:
+
+Purpose:
+The navigation system provides easy access to all modules of the application for beneficiaries and administrators.
+
+Beneficiary Navigation Flow:
+
+Splash Screen
+      |
+      V
+Login / Register
+      |
+      V
+Dashboard
+      |
+-------------------------------------------------
+|          |            |          |            |
+V          V            V          V            V
+Loan    Expense    Upload Proof  Reports   Reminders
+Details  Tracking
+
+Navigation Menu Items:
+1. Dashboard
+2. Loan Details
+3. Add Expense
+4. Upload Proof
+5. Reports
+6. Reminders
+7. Logout
+
+Admin Navigation Flow:
+
+Login
+   |
+   V
+Admin Dashboard
+   |
+----------------------------------------------------
+|           |            |            |            |
+V           V            V            V            V
+Users     Loans      Expenses     Reports    Reminders
+Management Monitoring Tracking   Analysis
+
+Navigation Menu Items:
+1. Dashboard
+2. User Management
+3. Loan Monitoring
+4. Expense Tracking
+5. Reports
+6. Reminder Management
+7. Logout
+
+2. Form Design:
+
+A. Login Form:
+
+Purpose:
+Authenticates users before accessing the system.
+
+Fields
+
+Field Name| Type| Validation
+Email| Email| Required
+Password| Password| Required
+
+Layout
+
++--------------------------+
+|         LOGIN            |
++--------------------------+
+| Email                    |
+| [________________]       |
+|                          |
+| Password                 |
+| [________________]       |
+|                          |
+| [ Login ]                |
++--------------------------+
+
+
+B. Registration Form:
+
+Purpose:
+Creates a new beneficiary account.
+
+Fields
+
+Field Name| Type| Validation
+Full Name| Text| Required
+Email| Email| Required
+Phone Number| Number| Required
+Password| Password| Required
+
+Layout
+
++--------------------------+
+|      REGISTRATION        |
++--------------------------+
+| Full Name                |
+| [________________]       |
+|                          |
+| Email                    |
+| [________________]       |
+|                          |
+| Phone Number             |
+| [________________]       |
+|                          |
+| Password                 |
+| [________________]       |
+|                          |
+| [ Register ]             |
++--------------------------+
+
+---
+
+C. Loan Details Form:
+
+Purpose:
+Displays loan information to beneficiaries.
+
+Fields
+
+Field Name| Type
+Loan ID| Auto Generated
+Loan Type| Text
+Loan Amount| Currency
+Status| Text
+Disbursement Date| Date
+
+D. Expense Entry Form:
+
+Purpose:
+Records expenses made using loan funds.
+
+Fields
+
+Field Name| Type| Validation
+Category| Dropdown| Required
+Amount| Number| Required
+Description| Text Area| Required
+Expense Date| Date| Required
+
+Layout
+
++--------------------------+
+|      ADD EXPENSE         |
++--------------------------+
+| Category                 |
+| [________________]       |
+|                          |
+| Amount                   |
+| [________________]       |
+|                          |
+| Description              |
+| [________________]       |
+|                          |
+| Date                     |
+| [________________]       |
+|                          |
+| [ Save Expense ]         |
++--------------------------+
+
+---
+
+E. Proof Upload Form:
+
+Purpose:
+Uploads bills, receipts, and invoices as proof of expenditure.
+
+Fields
+
+Field Name| Type
+Select File| File Upload
+Description| Text Area
+
+Layout
+
++--------------------------+
+|      UPLOAD PROOF        |
++--------------------------+
+| Select File              |
+| [ Choose File ]          |
+|                          |
+| Description              |
+| [________________]       |
+|                          |
+| [ Upload ]               |
++--------------------------+
+
+F. Reminder Form:
+
+Purpose:
+Allows administrators to send reminders to beneficiaries.
+
+Fields
+
+Field Name| Type
+User ID| Dropdown
+Reminder Message| Text Area
+Reminder Date| Date
+
+Design Principles:
+- Simple and user-friendly navigation
+- Responsive Android interface
+- Easy form validation
+- Secure user authentication
+- Quick access to loan and expense information
+- Consistent user experience across all modules
