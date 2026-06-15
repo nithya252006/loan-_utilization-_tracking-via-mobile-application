@@ -1,0 +1,143 @@
+Login and Dashboard UI Design:
+
+Project: Loan Tracking and Utilization Monitoring System
+
+1. Login Screen Design:
+
+Purpose:
+Allows beneficiaries and administrators to securely access the application.
+
+UI Components:
+- Application Logo
+- Project Title
+- Email Input Field
+- Password Input Field
+- Login Button
+- Register Link
+- Forgot Password Link
+
+Wireframe:
+
++----------------------------------+
+|                                  |
+|            [ LOGO ]              |
+|                                  |
+| Loan Tracking System             |
+|                                  |
+| Email                            |
+| [______________________]         |
+|                                  |
+| Password                         |
+| [______________________]         |
+|                                  |
+|      [ Login ]                   |
+|                                  |
+| Forgot Password?                 |
+|                                  |
+| New User? Register               |
++----------------------------------+
+
+Features:
+- User Authentication
+- Input Validation
+- Secure Login
+- Role-Based Access
+
+2. Beneficiary Dashboard Design:
+
+Purpose:
+Provides an overview of loan utilization and quick access to system modules.
+
+UI Components:
+- User Profile Section
+- Loan Summary Card
+- Expense Summary Card
+- Remaining Balance Card
+- Navigation Menu
+- Notifications Section
+
+Wireframe:
+
++----------------------------------+
+| Dashboard                        |
++----------------------------------+
+| Welcome, User                    |
++----------------------------------+
+| Total Loan       : ₹50,000       |
+| Total Expense    : ₹15,000       |
+| Balance Amount   : ₹35,000       |
++----------------------------------+
+| [ Loan Details ]                 |
+| [ Add Expense ]                  |
+| [ Upload Proof ]                 |
+| [ View Reports ]                 |
+| [ Reminders ]                    |
++----------------------------------+
+
+Features:
+- View Loan Information
+- Track Expenses
+- Upload Receipts and Bills
+- View Reports
+- Receive Notifications
+
+3. Admin Dashboard Design:
+
+Purpose:
+Allows administrators to monitor beneficiaries, loans, and reports.
+
+UI Components:
+- Statistics Cards
+- User Management Section
+- Loan Monitoring Section
+- Report Generation Section
+- Reminder Management Section
+
+Wireframe:
+
++----------------------------------+
+| Admin Dashboard                  |
++----------------------------------+
+| Total Users      : 120           |
+| Active Loans     : 85            |
+| Pending Reports  : 20            |
++----------------------------------+
+| [ Manage Users ]                 |
+| [ View Loans ]                   |
+| [ Expense Reports ]              |
+| [ Send Reminder ]                |
+| [ Logout ]                       |
++----------------------------------+
+
+Features:
+- Manage Users
+- Monitor Loans
+- Verify Expenses
+- Generate Reports
+- Send Notifications
+
+Navigation Flow:
+
+Splash Screen
+      |
+      V
+ Login Screen
+      |
+      V
+ Dashboard
+   /       \
+Beneficiary  Admin
+ Dashboard  Dashboard
+
+Technology Used:
+
+Frontend:
+- Java
+- XML
+- Android Studio
+
+Backend:
+- Python (Flask/Django)
+
+Database:
+- MySQL
