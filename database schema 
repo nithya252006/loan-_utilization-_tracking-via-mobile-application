@@ -1,0 +1,109 @@
+Database Schema:
+
+1. User Table:
+CREATE TABLE User (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    phone VARCHAR(15),
+    password VARCHAR(255) NOT NULL,
+    role ENUM('Beneficiary','Admin') NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+Description:
+Stores user account details and authentication information for beneficiaries and administrators.
+
+ 2. Loan Table:
+CREATE TABLE Loan (
+    loan_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    loan_type VARCHAR(50),
+    loan_amount DECIMAL(12,2) NOT NULL,
+    purpose TEXT,
+    status ENUM('Pending','Active','Completed') DEFAULT 'Pending',
+    disbursement_date DATE,
+
+    FOREIGN KEY (user_id)
+    REFERENCES User(user_id)
+);
+
+Description:
+Stores loan information including amount, purpose, status, and disbursement details.
+
+3. Expense Table:
+CREATE TABLE Expense (
+    expense_id INT PRIMARY KEY AUTO_INCREMENT,
+    loan_id INT NOT NULL,
+    category VARCHAR(50),
+    amount DECIMAL(12,2) NOT NULL,
+    description TEXT,
+    expense_date DATE,
+
+    FOREIGN KEY (loan_id)
+    REFERENCES Loan(loan_id)
+);
+
+Description:
+Tracks expenditures made using the loan amount.
+
+4. Proof Table:
+CREATE TABLE Proof (
+    proof_id INT PRIMARY KEY AUTO_INCREMENT,
+    expense_id INT NOT NULL,
+    file_name VARCHAR(255),
+    file_path VARCHAR(255),
+    upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (expense_id)
+    REFERENCES Expense(expense_id)
+);
+
+Description:
+Stores receipts, invoices, and supporting documents for expenses.
+
+5. Reminder Table:
+CREATE TABLE Reminder (
+    reminder_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    message VARCHAR(255),
+    reminder_date DATE,
+    status ENUM('Pending','Sent') DEFAULT 'Pending',
+
+    FOREIGN KEY (user_id)
+    REFERENCES User(user_id)
+);
+
+Description:
+Stores reminder notifications related to loan utilization and reporting.
+
+6. Report Table:
+CREATE TABLE Report (
+    report_id INT PRIMARY KEY AUTO_INCREMENT,
+    loan_id INT NOT NULL,
+    generated_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    total_expense DECIMAL(12,2),
+    remaining_balance DECIMAL(12,2),
+
+    FOREIGN KEY (loan_id)
+    REFERENCES Loan(loan_id)
+);
+
+Description:
+Stores generated loan utilization reports and financial summaries.
+
+
+Database Relationships:
+
+User (1)
+ │
+ ├───< Loan (Many)
+ │         │
+ │         ├───< Expense (Many)
+ │         │          │
+ │         │          └───< Proof (Many)
+ │         │
+ │         └───< Report (Many)
+ │
+ └───< Reminder (Many)
+
