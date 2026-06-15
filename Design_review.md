@@ -1,10 +1,10 @@
 Design Review:
 
 Project Title:
-Loan Tracking and Utilization Monitoring System
+Loan Tracking and Utilization Monitoring Application
 
 1. Introduction:
-The Loan Tracking and Utilization Monitoring System is a mobile-based application developed to monitor loan usage, track expenses, manage supporting documents, generate utilization reports, and send reminders to beneficiaries. The system improves transparency and accountability in loan fund utilization.
+The Loan Tracking and Utilization Monitoring Application is a mobile-based application developed to monitor loan usage, track expenses, manage supporting documents, generate utilization reports, and send reminders to beneficiaries. The system improves transparency and accountability in loan fund utilization.
 
 2. Design Objectives:
 The primary objectives of the system design are:
@@ -22,8 +22,7 @@ The primary objectives of the system design are:
 The system follows a three-tier architecture:
 
 +----------------------+
-|   Android Frontend   |
-|   Java + XML         |
+|  HTML+CSS+Javascript |       |
 +----------------------+
            |
            | REST API
@@ -181,4 +180,4 @@ Benefits:
 - Loan approval workflow.
 
 11. Conclusion:
-The Loan Tracking and Utilization Monitoring System provides an efficient and user-friendly platform for tracking loan utilization, managing expenses, storing proof documents, and generating reports. The design is modular, secure, scalable, and suitable for Android-based deployment using Java, XML, Python (Flask/Django), and MySQL.
+The Loan Tracking and Utilization Monitoring Application provides an efficient and user-friendly platform for tracking loan utilization, managing expenses, storing proof documents, and generating reports. 
