@@ -6,7 +6,7 @@ Project Title
 
 Objective
 
-The frontend of the Loan Tracking and Utilization Monitoring System is developed using HTML, CSS, and JavaScript to provide a responsive and user-friendly interface for managing loan information, tracking repayments, and monitoring loan utilization.
+The frontend of the Loan Tracking and Utilization Monitoring Application is developed using HTML, CSS, and JavaScript to provide a responsive and user-friendly interface for managing loan information, tracking repayments, and monitoring loan utilization.
 
 Technologies Used
 
