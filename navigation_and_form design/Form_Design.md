@@ -2,7 +2,7 @@
 
  Project
 
-Loan Tracking and Utilization Monitoring System
+Loan Tracking and Utilization Monitoring Application
 
  Purpose
 
@@ -112,8 +112,8 @@ Form Features
 
  Technology Used
 
-* Java
-* XML
-* Android Studio
+* HTML
+* CSS
+* Javascript
 * Python (Flask/Django)
 * MySQL
