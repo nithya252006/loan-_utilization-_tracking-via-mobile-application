@@ -2,7 +2,7 @@ UI Architecture
 
  Project
 
-Loan Tracking and Utilization Monitoring System
+Loan Tracking and Utilization Monitoring Application
 
 Purpose
 
@@ -46,8 +46,8 @@ Application
 
 Technology
 
-* Java
-* XML
-* Android Studio
+* HTML
+* CSS
+* Javascript
 * Python (Flask/Django)
 * MySQL
