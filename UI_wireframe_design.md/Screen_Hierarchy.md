@@ -9,7 +9,7 @@ Loan Tracking and Utilization Monitoring Application
 Defines how users move between screens in the application.
 
 Screen Flow
-
+```text
 Splash Screen
       |
       V
@@ -24,7 +24,7 @@ V          V           V          V               V
 Loan    Expense    Upload     Reports        Reminders
 Details  Module     Proof
 
-
+```
 User Navigation Flow
 
 1. Splash Screen
