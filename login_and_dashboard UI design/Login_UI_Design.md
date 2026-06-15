@@ -1,7 +1,7 @@
 Login UI Design
 Project
 
-Loan Tracking and Utilization Monitoring System
+Loan Tracking and Utilization Monitoring Application
 
 Purpose
 
@@ -49,6 +49,8 @@ Features
 
 Technology Used
 
-* Java
-* XML
-* Android Studio
+* HTML
+* CSS
+* Javascript
+* Python(Django/Flask)
+* My SQL
