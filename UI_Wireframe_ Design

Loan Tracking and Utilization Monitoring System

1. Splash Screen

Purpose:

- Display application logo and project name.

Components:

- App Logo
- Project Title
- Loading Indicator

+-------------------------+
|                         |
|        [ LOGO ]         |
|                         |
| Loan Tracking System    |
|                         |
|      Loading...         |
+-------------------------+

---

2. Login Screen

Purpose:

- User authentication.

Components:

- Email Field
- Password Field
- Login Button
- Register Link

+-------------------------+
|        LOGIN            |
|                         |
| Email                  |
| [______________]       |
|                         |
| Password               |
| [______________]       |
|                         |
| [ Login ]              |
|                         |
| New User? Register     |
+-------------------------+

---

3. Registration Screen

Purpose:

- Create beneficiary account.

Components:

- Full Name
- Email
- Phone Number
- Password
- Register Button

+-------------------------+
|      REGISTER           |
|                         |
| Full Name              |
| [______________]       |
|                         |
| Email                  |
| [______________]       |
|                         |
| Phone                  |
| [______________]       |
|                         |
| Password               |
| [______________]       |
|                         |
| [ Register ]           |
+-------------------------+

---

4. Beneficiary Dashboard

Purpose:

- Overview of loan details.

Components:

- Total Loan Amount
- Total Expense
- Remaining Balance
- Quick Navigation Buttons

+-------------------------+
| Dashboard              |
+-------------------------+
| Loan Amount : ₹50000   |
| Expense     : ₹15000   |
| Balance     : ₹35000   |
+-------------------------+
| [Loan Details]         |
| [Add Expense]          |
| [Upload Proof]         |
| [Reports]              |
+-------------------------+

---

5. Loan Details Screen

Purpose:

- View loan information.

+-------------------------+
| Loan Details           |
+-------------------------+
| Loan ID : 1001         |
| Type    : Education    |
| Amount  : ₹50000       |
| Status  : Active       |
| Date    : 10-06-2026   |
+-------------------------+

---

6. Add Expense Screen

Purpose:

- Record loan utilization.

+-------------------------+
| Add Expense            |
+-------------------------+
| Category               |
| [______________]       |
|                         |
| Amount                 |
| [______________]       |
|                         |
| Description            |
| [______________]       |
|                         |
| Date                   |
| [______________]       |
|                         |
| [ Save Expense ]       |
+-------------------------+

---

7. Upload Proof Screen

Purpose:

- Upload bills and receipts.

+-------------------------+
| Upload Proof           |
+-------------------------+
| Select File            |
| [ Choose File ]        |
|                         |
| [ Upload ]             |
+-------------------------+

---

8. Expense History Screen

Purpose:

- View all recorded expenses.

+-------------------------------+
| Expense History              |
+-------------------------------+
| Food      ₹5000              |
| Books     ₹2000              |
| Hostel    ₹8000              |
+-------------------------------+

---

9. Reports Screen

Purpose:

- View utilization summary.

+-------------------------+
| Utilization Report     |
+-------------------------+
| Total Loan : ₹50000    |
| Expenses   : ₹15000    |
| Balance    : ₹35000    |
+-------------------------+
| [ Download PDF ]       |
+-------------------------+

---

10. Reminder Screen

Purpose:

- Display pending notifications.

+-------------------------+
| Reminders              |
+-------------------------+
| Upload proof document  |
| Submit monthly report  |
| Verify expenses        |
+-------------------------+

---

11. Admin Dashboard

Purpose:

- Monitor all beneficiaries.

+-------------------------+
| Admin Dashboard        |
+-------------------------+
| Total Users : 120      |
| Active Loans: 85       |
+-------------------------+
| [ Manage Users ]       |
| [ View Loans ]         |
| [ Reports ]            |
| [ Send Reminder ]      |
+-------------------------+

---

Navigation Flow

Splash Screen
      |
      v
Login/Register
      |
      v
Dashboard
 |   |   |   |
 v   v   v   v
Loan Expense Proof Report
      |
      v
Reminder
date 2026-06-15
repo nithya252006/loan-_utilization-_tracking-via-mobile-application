@@ -1,0 +1,227 @@
+UI Wireframe Design
+
+Loan Tracking and Utilization Monitoring System
+
+1. Splash Screen
+
+Purpose:
+- Display application logo and project name.
+
+Components:
+- App Logo
+- Project Title
+- Loading Indicator
+
++-------------------------+
+|                         |
+|        [ LOGO ]         |
+|                         |
+| Loan Tracking System    |
+|                         |
+|      Loading...         |
++-------------------------+
+
+2. Login Screen
+
+Purpose:
+- User authentication.
+
+Components:
+- Email Field
+- Password Field
+- Login Button
+- Register Link
+
++-------------------------+
+|        LOGIN            |
+|                         |
+| Email                  |
+| [______________]       |
+|                         |
+| Password               |
+| [______________]       |
+|                         |
+| [ Login ]              |
+|                         |
+| New User? Register     |
++-------------------------+
+
+3. Registration Screen
+
+Purpose:
+- Create beneficiary account.
+
+Components:
+- Full Name
+- Email
+- Phone Number
+- Password
+- Register Button
+
++-------------------------+
+|      REGISTER           |
+|                         |
+| Full Name              |
+| [______________]       |
+|                         |
+| Email                  |
+| [______________]       |
+|                         |
+| Phone                  |
+| [______________]       |
+|                         |
+| Password               |
+| [______________]       |
+|                         |
+| [ Register ]           |
++-------------------------+
+
+4. Beneficiary Dashboard
+
+Purpose:
+- Overview of loan details.
+
+Components:
+- Total Loan Amount
+- Total Expense
+- Remaining Balance
+- Quick Navigation Buttons
+
++-------------------------+
+| Dashboard              |
++-------------------------+
+| Loan Amount : ₹50000   |
+| Expense     : ₹15000   |
+| Balance     : ₹35000   |
++-------------------------+
+| [Loan Details]         |
+| [Add Expense]          |
+| [Upload Proof]         |
+| [Reports]              |
++-------------------------+
+
+5. Loan Details Screen
+
+Purpose:
+- View loan information.
+
++-------------------------+
+| Loan Details           |
++-------------------------+
+| Loan ID : 1001         |
+| Type    : Education    |
+| Amount  : ₹50000       |
+| Status  : Active       |
+| Date    : 10-06-2026   |
++-------------------------+
+
+6. Add Expense Screen
+
+Purpose:
+- Record loan utilization.
+
++-------------------------+
+| Add Expense            |
++-------------------------+
+| Category               |
+| [______________]       |
+|                         |
+| Amount                 |
+| [______________]       |
+|                         |
+| Description            |
+| [______________]       |
+|                         |
+| Date                   |
+| [______________]       |
+|                         |
+| [ Save Expense ]       |
++-------------------------+
+
+7. Upload Proof Screen
+
+Purpose:
+- Upload bills and receipts.
+
++-------------------------+
+| Upload Proof           |
++-------------------------+
+| Select File            |
+| [ Choose File ]        |
+|                         |
+| [ Upload ]             |
++-------------------------+
+
+8. Expense History Screen
+
+Purpose:
+- View all recorded expenses.
+
++-------------------------------+
+| Expense History              |
++-------------------------------+
+| Food      ₹5000              |
+| Books     ₹2000              |
+| Hostel    ₹8000              |
++-------------------------------+
+
+9. Reports Screen
+
+Purpose:
+- View utilization summary.
+
++-------------------------+
+| Utilization Report     |
++-------------------------+
+| Total Loan : ₹50000    |
+| Expenses   : ₹15000    |
+| Balance    : ₹35000    |
++-------------------------+
+| [ Download PDF ]       |
++-------------------------+
+
+10. Reminder Screen
+
+Purpose:
+- Display pending notifications.
+
++-------------------------+
+| Reminders              |
++-------------------------+
+| Upload proof document  |
+| Submit monthly report  |
+| Verify expenses        |
++-------------------------+
+
+11. Admin Dashboard
+
+Purpose:
+- Monitor all beneficiaries.
+
++-------------------------+
+| Admin Dashboard        |
++-------------------------+
+| Total Users : 120      |
+| Active Loans: 85       |
++-------------------------+
+| [ Manage Users ]       |
+| [ View Loans ]         |
+| [ Reports ]            |
+| [ Send Reminder ]      |
++-------------------------+
+
+Navigation Flow
+
+Splash Screen
+      |
+      v
+Login/Register
+      |
+      v
+Dashboard
+ |   |   |   |
+ v   v   v   v
+Loan Expense Proof Report
+      |
+      v
+Reminder
