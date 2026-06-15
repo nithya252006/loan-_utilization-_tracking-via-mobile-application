@@ -28,7 +28,7 @@ Technologies Used
 
 Project Folder Structure
 
-
+```text
 loan-tracking-system/
 │
 ├── index.html
@@ -49,7 +49,7 @@ loan-tracking-system/
 │   └── icons/
 │
 └── README.md
-
+```
 
 Setup Procedure
 
