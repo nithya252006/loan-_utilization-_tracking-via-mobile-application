@@ -9,7 +9,7 @@ Purpose
 The navigation system provides easy access to all modules of the application and ensures a smooth user experience.
 
 Beneficiary Navigation Flow
-
+```text
 
 Splash Screen
       |
@@ -24,7 +24,7 @@ Dashboard
 V          V            V          V            V
 Loan    Expense    Upload Proof  Reports   Reminders
 Details  Tracking
-
+```
 
  Navigation Menu
 
@@ -38,7 +38,7 @@ Details  Tracking
 
 
 Admin Navigation Flow
-
+```text
 
 Login
    |
@@ -49,6 +49,7 @@ Admin Dashboard
 |           |            |            |            |
 V           V            V            V            V
 Users     Loans      Expenses     Reports    Reminders
+```
 Management Monitoring Tracking   Analysis
 
  Navigation Menu
