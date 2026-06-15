@@ -18,7 +18,7 @@ The Dashboard provides users with a quick overview of loan utilization, expenses
 * Quick Access Buttons
 
  Wireframe
-
+```text
 +----------------------------------+
 | Dashboard                        |
 +----------------------------------+
@@ -35,7 +35,7 @@ The Dashboard provides users with a quick overview of loan utilization, expenses
 | [ Reminders ]                    |
 +----------------------------------+
 
-
+```
 Features
 
 * View Loan Details
@@ -58,7 +58,7 @@ UI Components
 
 Wireframe
 
-
+```text
 +----------------------------------+
 | Admin Dashboard                  |
 +----------------------------------+
@@ -73,7 +73,7 @@ Wireframe
 | [ Logout ]                       |
 +----------------------------------+
 
-
+```
 Features
 
 * Manage Users
