@@ -9,7 +9,7 @@ Purpose
 The UI Architecture defines the overall structure of the application's user interface and module organization.
 
 Architecture Structure
-
+```text
 Application
 │
 ├── Authentication Module
@@ -36,7 +36,7 @@ Application
 └── Reminder Module
       └── Reminder Screen
 
-
+```
  Benefits
 
 * Modular Design
