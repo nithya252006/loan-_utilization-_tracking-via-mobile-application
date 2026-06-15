@@ -2,7 +2,7 @@ Screen Hierarchy
 
 Project
 
-Loan Tracking and Utilization Monitoring System
+Loan Tracking and Utilization Monitoring Application
 
  Purpose
 
