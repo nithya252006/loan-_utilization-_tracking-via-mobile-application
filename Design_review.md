@@ -20,7 +20,7 @@ The primary objectives of the system design are:
 
 3. System Architecture Review:
 The system follows a three-tier architecture:
-
+```text
 +----------------------+
 |  HTML+CSS+Javascript |       |
 +----------------------+
@@ -42,7 +42,7 @@ Advantages:
 - Modular architecture.
 - Secure communication.
 - Scalability for future enhancements.
-
+```
 4. User Interface Review:
 
 Login Screen
@@ -112,7 +112,7 @@ The database consists of the following tables:
 6. Report
 
 Relationship Overview:
-
+```text
 User
  |
  +---- Loan
@@ -124,7 +124,7 @@ User
  +---- Reminder
  |
  +---- Report
-
+```
 Evaluation:
 - Database is normalized.
 - Reduces data redundancy.
