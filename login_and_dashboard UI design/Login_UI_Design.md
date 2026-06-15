@@ -19,7 +19,7 @@ UI Components
 
 Wireframe
 
-
+```text
 +----------------------------------+
 |                                  |
 |            [ LOGO ]              |
@@ -38,7 +38,7 @@ Wireframe
 |                                  |
 | New User? Register               |
 +----------------------------------+
-
+```
 Features
 
 * Secure User Authentication
