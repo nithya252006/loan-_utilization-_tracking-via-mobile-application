@@ -1,0 +1,58 @@
+body {
+  font-family: Arial;
+  background: #eef5ff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  width: 95%;
+  padding: 8px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b7dda;
+}
+
+table {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 8px;
+}
+
+.edit { background: orange; padding: 5px; }
+.delete { background: red; padding: 5px; }
+
+#errorMsg, #loginError, #regError {
+  color: red;
+}#searchInput {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
